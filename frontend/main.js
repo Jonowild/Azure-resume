@@ -5,9 +5,8 @@ window.addEventListener('DOMContentLoaded', (event) =>{
 const functionApi = '';
 
 const getVisitCount = () => {
-
-    let count = 30;
-    fetch(functionApi).then(response => {
+     let count = 30;
+     fetch(functionApi).then(response => {
        return response.json()
 }).then(response =>{
     console.log("Website called function API.");
